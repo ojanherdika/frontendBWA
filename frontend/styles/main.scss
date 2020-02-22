@@ -1,5 +1,5 @@
 body {
-    background-color: #e4e6eb;
+    // background-color: #e4e6eb;
     font-family: 'Assistant', sans-serif;
     color: #071C4d;
 
@@ -265,6 +265,8 @@ header {
     a {
         color: #071C4d;
     }
+
+    background-color: #e4e6eb;
 }
 
 .section-details-header {
@@ -306,10 +308,102 @@ header {
         }
 
         p {
-            font-size: 18px;
+            // font-size: 18px;
             color: #b1b1b1;
         }
     }
+
+    h3 {
+
+        font-size: 14px;
+
+        font-weight: 600;
+        color: #071c4d;
+    }
+
+    .disclaimer {
+        font-size: 18px;
+        font-weight: 300;
+
+        color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0;
+        }
+
+        .input-group-append {
+            .btn {
+
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .trip-information {
+        .text-blue {
+            color: #071C4d;
+            font-weight: bold;
+
+        }
+
+
+        .text-orange {
+            color: #ff9e53;
+            font-weight: bold;
+        }
+    }
+
+    .payment-instruction {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+
+    .bank {
+        .bank-item {
+
+            h3 {
+                font-size: 18px;
+                color: #071C4d;
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .description {
+                padding-left: 10px;
+                overflow: hidden;
+                float: left;
+
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #071C4d;
+                }
+            }
+        }
+
+        .bank-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+
+    .btn-add-now {
+        background-color: #071C4d;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #183886;
+            color: #ffffff;
+        }
+    }
+
 
     .card-right {
         border-bottom-left-radius: 0;
@@ -384,4 +478,32 @@ header {
         }
     }
 
+}
+
+.section-success {
+    height: 90vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #071C4d;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background-color: #071C4d;
+        color: white;
+
+        &:hover {
+            background-color: #2a488e;
+            color: white;
+        }
+    }
 }
